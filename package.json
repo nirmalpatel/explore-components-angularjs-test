@@ -1,0 +1,18 @@
+{
+  "name": "demo-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./ -a localhost -p 8090 -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nirmalpatel21/explore-components-angularjs": "^1.0.1",
+    "angular": "^1.8.2",
+    "bootstrap": "^4.6.x",
+    "http-server": "^0.12.3"
+  }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html ng-app="cirlceDemo">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="app.css" />
+
+  <!-- Import styling for the components as shown below and import the peer dependancy of createjs -->
+
+  <link rel="stylesheet" href="./node_modules/@nirmalpatel21/explore-components-angularjs/styles.css" />
+  
+  <!-- We are using easel, preload, sound, and tween, so we are importing the combined createjs lib -->
+  <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+
+  <!--================================================================================= -->
+  <script src="./node_modules/angular/angular.js"></script>
+  <script src="app.module.js"></script>
+  
+  <!-- Add Modules and component to projects index.html as shown below after running 'npm install @nirmalpatel21/explore-components-angularjs' -->
+
+  <script src="./node_modules/@nirmalpatel21/explore-components-angularjs/circle-slideshow-component/circle-slideshow.module.js"></script>
+  <script src="./node_modules/@nirmalpatel21/explore-components-angularjs/circle-slideshow-component/circle-slideshow.component.js"></script>
+  <script src="./node_modules/@nirmalpatel21/explore-components-angularjs/circle-radius-diameter-component/circle-radius.module.js"></script>
+  <script src="./node_modules/@nirmalpatel21/explore-components-angularjs/circle-radius-diameter-component/circle-radius.component.js"></script>
+  <script src="./node_modules/@nirmalpatel21/explore-components-angularjs/kangaroo-numberline-component/kangaroo-numberline.module.js"></script>
+  <script src="./node_modules/@nirmalpatel21/explore-components-angularjs/kangaroo-numberline-component/kangaroo-numberline.component.js"></script>
+  <script src="./node_modules/@nirmalpatel21/explore-components-angularjs/thermometer-arithmetic-component/thermometer-arithmetic.module.js"></script>
+  <script src="./node_modules/@nirmalpatel21/explore-components-angularjs/thermometer-arithmetic-component/thermometer-arithmetic.component.js"></script>
+
+  <!-- ======================================================================================================================== -->
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Components can be used anywhere in as a tag shown below in template. -->
+  <div>
+    <circle-slideshow />
+  </div>
+
+  <div>
+    <circle-radius />
+  </div>
+  <div>
+    <kangaroo-numberline />
+  </div>
+  <div>
+    <thermometer-arithmetic />
+  </div>
+  <!-- <script src="" async defer></script> -->
+</body>
+
+</html>
