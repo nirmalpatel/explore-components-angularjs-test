@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@nirmalpatel21/explore-components-angularjs": "^1.0.1",
+    "@nirmalpatel21/explore-components-angularjs": "^1.0.2",
     "angular": "^1.8.2",
     "bootstrap": "^4.6.x",
     "http-server": "^0.12.3"
