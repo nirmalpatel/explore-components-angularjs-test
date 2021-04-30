@@ -1,6 +1,6 @@
 # Test application for AngularJS Explore Tools
 
-This test application installs an NPM package `explore-components-angularjs` from a private registry @nirmalpatel21 and runs the 4 explore components in the index.html file.
+This test application installs an NPM package `explore-components-angularjs` and runs the 4 explore components in the index.html file.
 
 The index.html file imports CreateJS and component files using `<script>` tags.
 
